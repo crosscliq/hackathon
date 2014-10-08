@@ -1,0 +1,1204 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "ed0366457e2c3894267c36761dfec1a5",
+    "packages": [
+        {
+            "name": "bcosca/fatfree",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bcosca/fatfree.git",
+                "reference": "23a356b3b7ef044f646a304f77154519ef31984c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bcosca/fatfree/zipball/23a356b3b7ef044f646a304f77154519ef31984c",
+                "reference": "23a356b3b7ef044f646a304f77154519ef31984c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "A powerful yet easy-to-use PHP micro-framework designed to help you build dynamic and robust Web applications - fast!",
+            "homepage": "http://fatfreeframework.com/",
+            "time": "2014-09-03 06:45:45"
+        },
+        {
+            "name": "dioscouri/f3-activity",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dioscouri/f3-activity.git",
+                "reference": "73ed0911bbf7851037959ce4a28598b897ca334e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dioscouri/f3-activity/zipball/73ed0911bbf7851037959ce4a28598b897ca334e",
+                "reference": "73ed0911bbf7851037959ce4a28598b897ca334e",
+                "shasum": ""
+            },
+            "require": {
+                "dioscouri/f3-admin": "dev-master",
+                "dioscouri/f3-lib": "dev-master",
+                "php": ">=5.4.0"
+            },
+            "type": "component",
+            "autoload": {
+                "psr-0": {
+                    "Activity": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Chris French",
+                    "email": "chris@ammonitenetworks.com",
+                    "homepage": "http://ammonitenetworks.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Activity component for the F3-framework",
+            "homepage": "https://github.com/dioscouri/f3-activity",
+            "keywords": [
+                "F3",
+                "rad",
+                "tracking"
+            ],
+            "time": "2014-09-29 21:11:27"
+        },
+        {
+            "name": "dioscouri/f3-admin",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dioscouri/f3-admin.git",
+                "reference": "5c5351fc6bb1d0272ba1ff80bdf4ff581faa54e7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dioscouri/f3-admin/zipball/5c5351fc6bb1d0272ba1ff80bdf4ff581faa54e7",
+                "reference": "5c5351fc6bb1d0272ba1ff80bdf4ff581faa54e7",
+                "shasum": ""
+            },
+            "require": {
+                "dioscouri/f3-lib": "dev-master",
+                "dioscouri/f3-users": "dev-master",
+                "php": ">=5.4.0"
+            },
+            "type": "component",
+            "autoload": {
+                "psr-0": {
+                    "Admin": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Rafael Diaz-Tushman",
+                    "email": "rdiaztushman@dioscouri.com",
+                    "homepage": "http://dioscouri.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Admin component for the F3-framework",
+            "homepage": "https://github.com/dioscouri/f3-admin",
+            "keywords": [
+                "F3",
+                "admin",
+                "cms",
+                "rad"
+            ],
+            "time": "2014-10-07 17:53:45"
+        },
+        {
+            "name": "dioscouri/f3-affiliates",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dioscouri/f3-affiliates.git",
+                "reference": "1fbafad8f4f17c087794b73555fffabc3a5d77a9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dioscouri/f3-affiliates/zipball/1fbafad8f4f17c087794b73555fffabc3a5d77a9",
+                "reference": "1fbafad8f4f17c087794b73555fffabc3a5d77a9",
+                "shasum": ""
+            },
+            "require": {
+                "dioscouri/f3-admin": "dev-master",
+                "dioscouri/f3-lib": "dev-master",
+                "php": ">=5.4.0"
+            },
+            "type": "component",
+            "autoload": {
+                "psr-0": {
+                    "Affiliates": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Rafael Diaz-Tushman",
+                    "email": "rdiaztushman@dioscouri.com",
+                    "homepage": "http://dioscouri.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Affiliate tracking for the F3-framework",
+            "homepage": "https://github.com/dioscouri/f3-affiliates",
+            "keywords": [
+                "F3",
+                "affiliates",
+                "rad"
+            ],
+            "time": "2014-09-09 21:27:15"
+        },
+        {
+            "name": "dioscouri/f3-assets",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dioscouri/f3-assets.git",
+                "reference": "72d02de6ff659866eab8ac440926650ec47ec735"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dioscouri/f3-assets/zipball/72d02de6ff659866eab8ac440926650ec47ec735",
+                "reference": "72d02de6ff659866eab8ac440926650ec47ec735",
+                "shasum": ""
+            },
+            "require": {
+                "dioscouri/f3-admin": "dev-master",
+                "dioscouri/f3-lib": "dev-master",
+                "php": ">=5.4.0"
+            },
+            "type": "component",
+            "autoload": {
+                "psr-0": {
+                    "Assets": "src/",
+                    "Fineuploader": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Rafael Diaz-Tushman",
+                    "email": "rdiaztushman@dioscouri.com",
+                    "homepage": "http://dioscouri.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Assets component for the F3-framework",
+            "homepage": "https://github.com/dioscouri/f3-assets",
+            "keywords": [
+                "F3",
+                "Media Asset Manager",
+                "rad"
+            ],
+            "time": "2014-08-25 21:33:25"
+        },
+        {
+            "name": "dioscouri/f3-blog",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dioscouri/f3-blog.git",
+                "reference": "4e3270fe515eabda61906702ad6755d4e385ec1e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dioscouri/f3-blog/zipball/4e3270fe515eabda61906702ad6755d4e385ec1e",
+                "reference": "4e3270fe515eabda61906702ad6755d4e385ec1e",
+                "shasum": ""
+            },
+            "require": {
+                "dioscouri/f3-admin": "dev-master",
+                "dioscouri/f3-lib": "dev-master",
+                "php": ">=5.4.0"
+            },
+            "type": "component",
+            "autoload": {
+                "psr-0": {
+                    "Blog": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Rafael Diaz-Tushman",
+                    "email": "rdiaztushman@dioscouri.com",
+                    "homepage": "http://dioscouri.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Blog component for the F3-framework",
+            "homepage": "https://github.com/dioscouri/f3-blog",
+            "keywords": [
+                "F3",
+                "blog",
+                "rad"
+            ],
+            "time": "2014-08-22 14:09:28"
+        },
+        {
+            "name": "dioscouri/f3-lib",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dioscouri/f3-lib.git",
+                "reference": "7a91293fe69620b1474653d0e8bc6ff627bbc0a5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dioscouri/f3-lib/zipball/7a91293fe69620b1474653d0e8bc6ff627bbc0a5",
+                "reference": "7a91293fe69620b1474653d0e8bc6ff627bbc0a5",
+                "shasum": ""
+            },
+            "require": {
+                "joomla/framework": ">=1.0",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Dsc": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Rafael Diaz-Tushman",
+                    "email": "rdiaztushman@dioscouri.com",
+                    "homepage": "http://dioscouri.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Library for the F3-framework",
+            "homepage": "https://github.com/dioscouri/f3-lib",
+            "keywords": [
+                "F3",
+                "rad"
+            ],
+            "time": "2014-10-02 22:16:06"
+        },
+        {
+            "name": "dioscouri/f3-mailer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dioscouri/f3-mailer.git",
+                "reference": "c9b9d7f45bd9f10ac6c2dcba9fbcfba387841f27"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dioscouri/f3-mailer/zipball/c9b9d7f45bd9f10ac6c2dcba9fbcfba387841f27",
+                "reference": "c9b9d7f45bd9f10ac6c2dcba9fbcfba387841f27",
+                "shasum": ""
+            },
+            "require": {
+                "dioscouri/f3-admin": "dev-master",
+                "dioscouri/f3-lib": "dev-master",
+                "mandrill/mandrill": "dev-master",
+                "php": ">=5.4.0",
+                "phpmailer/phpmailer": ">=v5.2.7"
+            },
+            "type": "component",
+            "autoload": {
+                "psr-0": {
+                    "Mailer": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Rafael Diaz-Tushman",
+                    "email": "rdiaztushman@dioscouri.com",
+                    "homepage": "http://dioscouri.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Chris French",
+                    "email": "chris@ammonitenetworks.com",
+                    "homepage": "http://ammonitenetworks.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A Mandrill Mailer App for F3-framework",
+            "homepage": "https://github.com/dioscouri/f3-mailer",
+            "keywords": [
+                "F3",
+                "email",
+                "mandrill",
+                "rad"
+            ],
+            "time": "2014-06-18 20:59:25"
+        },
+        {
+            "name": "dioscouri/f3-massupdate",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dioscouri/f3-massupdate.git",
+                "reference": "6337668e2bd89f0f8ae94a9e64507e0f5de6477d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dioscouri/f3-massupdate/zipball/6337668e2bd89f0f8ae94a9e64507e0f5de6477d",
+                "reference": "6337668e2bd89f0f8ae94a9e64507e0f5de6477d",
+                "shasum": ""
+            },
+            "require": {
+                "dioscouri/f3-lib": "dev-master",
+                "php": ">=5.4.0"
+            },
+            "type": "component",
+            "autoload": {
+                "psr-0": {
+                    "MassUpdate": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Rafael Diaz-Tushman",
+                    "email": "rdiaztushman@dioscouri.com",
+                    "homepage": "http://dioscouri.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Mass Update component for the F3-framework",
+            "homepage": "https://github.com/dioscouri/f3-massupdate",
+            "keywords": [
+                "F3",
+                "Mass Update",
+                "rad"
+            ],
+            "time": "2014-05-20 14:09:23"
+        },
+        {
+            "name": "dioscouri/f3-minify",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dioscouri/f3-minify.git",
+                "reference": "2dd1714294f01b3bab6ba5e2b5255f6954e4ad55"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dioscouri/f3-minify/zipball/2dd1714294f01b3bab6ba5e2b5255f6954e4ad55",
+                "reference": "2dd1714294f01b3bab6ba5e2b5255f6954e4ad55",
+                "shasum": ""
+            },
+            "require": {
+                "dioscouri/f3-lib": "dev-master",
+                "leafo/lessphp": ">=0.4.0",
+                "php": ">=5.4.0"
+            },
+            "type": "component",
+            "autoload": {
+                "psr-0": {
+                    "Minify": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Rafael Diaz-Tushman",
+                    "email": "rdiaztushman@dioscouri.com",
+                    "homepage": "http://dioscouri.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Front-end package manager for the F3-framework",
+            "homepage": "https://github.com/dioscouri/f3-minify",
+            "keywords": [
+                "F3",
+                "package manager",
+                "rad"
+            ],
+            "time": "2014-08-25 21:33:43"
+        },
+        {
+            "name": "dioscouri/f3-modules",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dioscouri/f3-modules.git",
+                "reference": "fed859a083af9f5391784c64c92847ee37368015"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dioscouri/f3-modules/zipball/fed859a083af9f5391784c64c92847ee37368015",
+                "reference": "fed859a083af9f5391784c64c92847ee37368015",
+                "shasum": ""
+            },
+            "require": {
+                "dioscouri/f3-admin": "dev-master",
+                "dioscouri/f3-lib": "dev-master",
+                "php": ">=5.4.0",
+                "snowplow/referer-parser": "dev-master"
+            },
+            "type": "component",
+            "autoload": {
+                "psr-0": {
+                    "Modules": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Rafael Diaz-Tushman",
+                    "email": "rdiaztushman@dioscouri.com",
+                    "homepage": "http://dioscouri.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Modules component for the F3-framework",
+            "homepage": "https://github.com/dioscouri/f3-modules",
+            "keywords": [
+                "F3",
+                "Module Manager",
+                "rad"
+            ],
+            "time": "2014-09-18 17:59:15"
+        },
+        {
+            "name": "dioscouri/f3-pages",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dioscouri/f3-pages.git",
+                "reference": "bd2ddb53c6960475223dc630327b56d82f3a5ef2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dioscouri/f3-pages/zipball/bd2ddb53c6960475223dc630327b56d82f3a5ef2",
+                "reference": "bd2ddb53c6960475223dc630327b56d82f3a5ef2",
+                "shasum": ""
+            },
+            "require": {
+                "dioscouri/f3-admin": "dev-master",
+                "dioscouri/f3-lib": "dev-master",
+                "dioscouri/f3-search": "dev-master",
+                "php": ">=5.4.0"
+            },
+            "type": "component",
+            "autoload": {
+                "psr-0": {
+                    "Pages": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Rafael Diaz-Tushman",
+                    "email": "rdiaztushman@dioscouri.com",
+                    "homepage": "http://dioscouri.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Static content for the F3-framework",
+            "homepage": "https://github.com/dioscouri/f3-pages",
+            "keywords": [
+                "F3",
+                "content",
+                "rad"
+            ],
+            "time": "2014-08-22 14:09:19"
+        },
+        {
+            "name": "dioscouri/f3-redirect",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dioscouri/f3-redirect.git",
+                "reference": "f174a888dfa46a702dffcee9d381b1a7b58dca61"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dioscouri/f3-redirect/zipball/f174a888dfa46a702dffcee9d381b1a7b58dca61",
+                "reference": "f174a888dfa46a702dffcee9d381b1a7b58dca61",
+                "shasum": ""
+            },
+            "require": {
+                "dioscouri/f3-admin": "dev-master",
+                "dioscouri/f3-lib": "dev-master",
+                "php": ">=5.4.0"
+            },
+            "type": "component",
+            "autoload": {
+                "psr-0": {
+                    "Redirect": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Rafael Diaz-Tushman",
+                    "email": "rdiaztushman@dioscouri.com",
+                    "homepage": "http://dioscouri.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Redirection component for the F3-framework",
+            "homepage": "https://github.com/dioscouri/f3-redirect",
+            "keywords": [
+                "F3",
+                "Routes Manager",
+                "rad"
+            ],
+            "time": "2014-09-26 05:16:56"
+        },
+        {
+            "name": "dioscouri/f3-search",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dioscouri/f3-search.git",
+                "reference": "3b276e8a497e3645f00c9821b3d56f2b3352c688"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dioscouri/f3-search/zipball/3b276e8a497e3645f00c9821b3d56f2b3352c688",
+                "reference": "3b276e8a497e3645f00c9821b3d56f2b3352c688",
+                "shasum": ""
+            },
+            "require": {
+                "dioscouri/f3-admin": "dev-master",
+                "dioscouri/f3-lib": "dev-master",
+                "php": ">=5.4.0"
+            },
+            "type": "component",
+            "autoload": {
+                "psr-0": {
+                    "Search": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Rafael Diaz-Tushman",
+                    "email": "rdiaztushman@dioscouri.com",
+                    "homepage": "http://dioscouri.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Generic search for the F3-framework",
+            "homepage": "https://github.com/dioscouri/f3-search",
+            "keywords": [
+                "F3",
+                "rad",
+                "search"
+            ],
+            "time": "2014-09-10 19:28:35"
+        },
+        {
+            "name": "dioscouri/f3-shop",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dioscouri/f3-shop.git",
+                "reference": "1ede22844bc91db32cdaf011a9fb02b02ad3d43d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dioscouri/f3-shop/zipball/1ede22844bc91db32cdaf011a9fb02b02ad3d43d",
+                "reference": "1ede22844bc91db32cdaf011a9fb02b02ad3d43d",
+                "shasum": ""
+            },
+            "require": {
+                "dioscouri/f3-admin": "dev-master",
+                "dioscouri/f3-affiliates": "dev-master",
+                "dioscouri/f3-lib": "dev-master",
+                "dioscouri/f3-minify": "dev-master",
+                "dioscouri/f3-search": "dev-master",
+                "php": ">=5.4.0"
+            },
+            "type": "component",
+            "autoload": {
+                "psr-0": {
+                    "Shop": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Rafael Diaz-Tushman",
+                    "email": "rdiaztushman@dioscouri.com",
+                    "homepage": "http://dioscouri.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "E-commerce component for the F3-framework",
+            "homepage": "https://github.com/dioscouri/f3-shop",
+            "keywords": [
+                "F3",
+                "e-commerce",
+                "rad"
+            ],
+            "time": "2014-10-07 19:11:31"
+        },
+        {
+            "name": "dioscouri/f3-users",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dioscouri/f3-users.git",
+                "reference": "41f970f618c032f84e0970854242e0538ba6b74e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dioscouri/f3-users/zipball/41f970f618c032f84e0970854242e0538ba6b74e",
+                "reference": "41f970f618c032f84e0970854242e0538ba6b74e",
+                "shasum": ""
+            },
+            "require": {
+                "dioscouri/f3-admin": "dev-master",
+                "dioscouri/f3-lib": "dev-master",
+                "php": ">=5.4.0"
+            },
+            "type": "component",
+            "autoload": {
+                "psr-0": {
+                    "Users": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Rafael Diaz-Tushman",
+                    "email": "rdiaztushman@dioscouri.com",
+                    "homepage": "http://dioscouri.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Simple User component for the F3-framework",
+            "homepage": "https://github.com/dioscouri/f3-users",
+            "keywords": [
+                "F3",
+                "User management",
+                "rad"
+            ],
+            "time": "2014-09-26 19:33:26"
+        },
+        {
+            "name": "firephp/firephp-core",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/firephp/firephp-core.git",
+                "reference": "e669ef4e47ac86d05914e9e6251c7c6be5196713"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/firephp/firephp-core/zipball/e669ef4e47ac86d05914e9e6251c7c6be5196713",
+                "reference": "e669ef4e47ac86d05914e9e6251c7c6be5196713",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/FirePHPCore/FirePHP.class.php",
+                    "lib/FirePHPCore/fb.php"
+                ],
+                "files": [
+                    "lib/FirePHPCore/fb.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christoph Dorn",
+                    "email": "christoph@christophdorn.com",
+                    "homepage": "http://christophdorn.com"
+                }
+            ],
+            "description": "Traditional FirePHPCore library for sending PHP variables to the browser.",
+            "homepage": "https://github.com/firephp/firephp-core",
+            "time": "2014-08-28 15:02:46"
+        },
+        {
+            "name": "hybridauth/hybridauth",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hybridauth/hybridauth.git",
+                "reference": "5b27ea2a91da4fe153bd2474af0ab8133684434a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hybridauth/hybridauth/zipball/5b27ea2a91da4fe153bd2474af0ab8133684434a",
+                "reference": "5b27ea2a91da4fe153bd2474af0ab8133684434a",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Hybrid": "hybridauth/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "(MIT or GPL-3.0+)"
+            ],
+            "authors": [
+                {
+                    "name": "Miled",
+                    "email": "hybridauth@gmail.com"
+                }
+            ],
+            "description": "Open source social sign on PHP library.",
+            "homepage": "http://hybridauth.sourceforge.net",
+            "keywords": [
+                "OpenId",
+                "facebook",
+                "google",
+                "hybridauth",
+                "login",
+                "oauth",
+                "social",
+                "twitter",
+                "yahoo"
+            ],
+            "time": "2014-10-04 02:07:08"
+        },
+        {
+            "name": "joomla/framework",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/joomla/joomla-framework.git",
+                "reference": "f8a2343d3147f595d43e735b89b11c277520f141"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/joomla/joomla-framework/zipball/f8a2343d3147f595d43e735b89b11c277520f141",
+                "reference": "f8a2343d3147f595d43e735b89b11c277520f141",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.10",
+                "psr/log": "~1.0"
+            },
+            "replace": {
+                "joomla/application": "self.version",
+                "joomla/archive": "self.version",
+                "joomla/cache": "self.version",
+                "joomla/compat": "self.version",
+                "joomla/controller": "self.version",
+                "joomla/crypt": "self.version",
+                "joomla/data": "self.version",
+                "joomla/database": "self.version",
+                "joomla/date": "self.version",
+                "joomla/facebook": "self.version",
+                "joomla/filesystem": "self.version",
+                "joomla/filter": "self.version",
+                "joomla/form": "self.version",
+                "joomla/github": "self.version",
+                "joomla/google": "self.version",
+                "joomla/http": "self.version",
+                "joomla/image": "self.version",
+                "joomla/input": "self.version",
+                "joomla/keychain": "self.version",
+                "joomla/language": "self.version",
+                "joomla/linkedin": "self.version",
+                "joomla/log": "self.version",
+                "joomla/model": "self.version",
+                "joomla/oauth1": "self.version",
+                "joomla/oauth2": "self.version",
+                "joomla/profiler": "self.version",
+                "joomla/registry": "self.version",
+                "joomla/router": "self.version",
+                "joomla/session": "self.version",
+                "joomla/string": "self.version",
+                "joomla/test": "self.version",
+                "joomla/twitter": "self.version",
+                "joomla/uri": "self.version",
+                "joomla/utilities": "self.version",
+                "joomla/view": "self.version"
+            },
+            "require-dev": {
+                "symfony/yaml": "~2.0"
+            },
+            "suggest": {
+                "symfony/yaml": "Install symfony/yaml 2.* if you require YAML support."
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Joomla": "src/",
+                    "Psr": "vendor/psr/cache"
+                },
+                "classmap": [
+                    "src/Joomla/Compat/JsonSerializable.php"
+                ],
+                "files": [
+                    "src/Joomla/PHP/methods.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "The Joomla Framework is a platform for writing Web and command line applications in PHP.",
+            "homepage": "https://github.com/joomla/joomla-framework",
+            "keywords": [
+                "framework",
+                "joomla"
+            ],
+            "time": "2014-02-08 18:43:22"
+        },
+        {
+            "name": "leafo/lessphp",
+            "version": "v0.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/leafo/lessphp.git",
+                "reference": "51f3f06f0fe78a722dabfd14578444bdd078d9de"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/leafo/lessphp/zipball/51f3f06f0fe78a722dabfd14578444bdd078d9de",
+                "reference": "51f3f06f0fe78a722dabfd14578444bdd078d9de",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.3-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "lessc.inc.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT",
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Leaf Corcoran",
+                    "email": "leafot@gmail.com",
+                    "homepage": "http://leafo.net"
+                }
+            ],
+            "description": "lessphp is a compiler for LESS written in PHP.",
+            "homepage": "http://leafo.net/lessphp/",
+            "time": "2013-08-09 17:09:19"
+        },
+        {
+            "name": "mandrill/mandrill",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/mailchimp/mandrill-api-php.git",
+                "reference": "67c40851204de8680c0a366a6ef19ff8ca95426f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/mailchimp/mandrill-api-php/get/67c40851204de8680c0a366a6ef19ff8ca95426f.zip",
+                "reference": "67c40851204de8680c0a366a6ef19ff8ca95426f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Mandrill": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Mandrill Devs",
+                    "email": "community@mandrill.com",
+                    "homepage": "http://mandrill.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "API client library for the Mandrill email as a service platform",
+            "homepage": "https://bitbucket.org/mailchimp/mandrill-api-php",
+            "keywords": [
+                "api",
+                "email"
+            ],
+            "time": "2014-06-26 16:02:01"
+        },
+        {
+            "name": "phpmailer/phpmailer",
+            "version": "v5.2.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHPMailer/PHPMailer.git",
+                "reference": "73b61679809615850706f1dbf88e6df2ddc05745"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/73b61679809615850706f1dbf88e6df2ddc05745",
+                "reference": "73b61679809615850706f1dbf88e6df2ddc05745",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.0.0"
+            },
+            "require-dev": {
+                "phpdocumentor/phpdocumentor": "*",
+                "phpunit/phpunit": "4.1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "class.phpmailer.php",
+                    "class.pop3.php",
+                    "class.smtp.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1"
+            ],
+            "authors": [
+                {
+                    "name": "Jim Jagielski",
+                    "email": "jimjag@gmail.com"
+                },
+                {
+                    "name": "Marcus Bointon",
+                    "email": "phpmailer@synchromedia.co.uk"
+                },
+                {
+                    "name": "Andy Prevost",
+                    "email": "codeworxtech@users.sourceforge.net"
+                },
+                {
+                    "name": "Brent R. Matzelle"
+                }
+            ],
+            "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
+            "time": "2014-09-26 18:33:30"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Psr\\Log\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2012-12-21 11:40:51"
+        },
+        {
+            "name": "snowplow/referer-parser",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/snowplow/referer-parser.git",
+                "reference": "4681b5a227c9f6f246d43cb068008b6fed484aed"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/snowplow/referer-parser/zipball/4681b5a227c9f6f246d43cb068008b6fed484aed",
+                "reference": "4681b5a227c9f6f246d43cb068008b6fed484aed",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.*",
+                "symfony/yaml": "*"
+            },
+            "suggest": {
+                "symfony/yaml": "Support for YAML configuration file"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Snowplow\\RefererParser": "php/src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Lars Strojny",
+                    "email": "lars@strojny.net"
+                }
+            ],
+            "description": "Snowplow Refer(r)er parser for PHP",
+            "time": "2014-09-30 16:58:48"
+        },
+        {
+            "name": "twilio/sdk",
+            "version": "3.12.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twilio/twilio-php.git",
+                "reference": "be6b2eec33ec665827cfd780f98f732a6e0e84eb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twilio/twilio-php/zipball/be6b2eec33ec665827cfd780f98f732a6e0e84eb",
+                "reference": "be6b2eec33ec665827cfd780f98f732a6e0e84eb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.1"
+            },
+            "require-dev": {
+                "mockery/mockery": ">=0.7.2",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Services_Twilio": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kevin Burke",
+                    "email": "kevin@twilio.com"
+                },
+                {
+                    "name": "Kyle Conroy",
+                    "email": "kyle+pear@twilio.com"
+                }
+            ],
+            "description": "A PHP wrapper for Twilio's API",
+            "homepage": "http://github.com/twilio/twilio-php",
+            "keywords": [
+                "api",
+                "sms",
+                "twilio"
+            ],
+            "time": "2014-07-15 17:12:48"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "bcosca/fatfree": 20,
+        "dioscouri/f3-lib": 20,
+        "dioscouri/f3-minify": 20,
+        "dioscouri/f3-admin": 20,
+        "dioscouri/f3-users": 20,
+        "hybridauth/hybridauth": 20,
+        "dioscouri/f3-assets": 20,
+        "dioscouri/f3-blog": 20,
+        "dioscouri/f3-modules": 20,
+        "snowplow/referer-parser": 20,
+        "dioscouri/f3-pages": 20,
+        "dioscouri/f3-search": 20,
+        "dioscouri/f3-mailer": 20,
+        "mandrill/mandrill": 20,
+        "dioscouri/f3-shop": 20,
+        "dioscouri/f3-affiliates": 20,
+        "dioscouri/f3-redirect": 20,
+        "dioscouri/f3-massupdate": 20,
+        "dioscouri/f3-activity": 20,
+        "firephp/firephp-core": 20
+    },
+    "platform": [],
+    "platform-dev": []
+}
